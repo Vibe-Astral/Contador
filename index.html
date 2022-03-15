@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="css/style.css">
-    <title>Responsividade horaria</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Contador</title>
 
 </head>
 
@@ -16,15 +16,18 @@
         <h1>Horario</h1>
     </header>
     <section>
-        <div id="msg">
-            Hora Diaria
+        <div id="vis">
+            <p>Inicio <input type="number" name="inicio" id="txti"> </p>
+            <p>Fim <input type="number" name="fim" id="txtf"></p>
+            <p>Pulando de: <input type="number" name="pulando" id="txtp"> </p>
+            <p><input type="button" value="contar" onclick="contar"></p>
         </div>
-        <div id="foto">
-            <img id="imagem" src="img/manha.png" alt="foto do dia">
+        <div id="res">
+            Preparando Contagem...
         </div>
     </section>
     <footer>
-        <h1>Curso em Video Exercicio</h1>
+        <p>&copy;Exercicio curso</p>
     </footer>
     <script src="s.js"></script>
 </body>
