@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -11,7 +11,7 @@
 
 </head>
 
-<body onload="carregar()">
+<body>
     <header>
         <h1>Horario</h1>
     </header>
@@ -20,7 +20,7 @@
             <p>Inicio <input type="number" name="inicio" id="txti"> </p>
             <p>Fim <input type="number" name="fim" id="txtf"></p>
             <p>Pulando de: <input type="number" name="pulando" id="txtp"> </p>
-            <p><input type="button" value="contar" onclick="contar"></p>
+            <p id="btn"><input type="button" value="Contar" onclick="contar()"></p>
         </div>
         <div id="res">
             Preparando Contagem...
@@ -29,7 +29,9 @@
     <footer>
         <p>&copy;Exercicio curso</p>
     </footer>
-    <script src="s.js"></script>
+
+    <script src="script.js"></script>
+
 </body>
 
 </html>
